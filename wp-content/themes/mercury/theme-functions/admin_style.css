@@ -1,0 +1,10 @@
+.appearance_page_one-click-demo-import .ocdi-install-plugins-content-content  {
+    display: none;
+}
+.restricted_country_code_column,
+.column-restricted_country_code_column {
+    text-align: right !important;
+}
+td.restricted_country_code_column {
+    font-weight: bold;
+}

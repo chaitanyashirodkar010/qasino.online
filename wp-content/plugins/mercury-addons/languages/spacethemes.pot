@@ -1,0 +1,245 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Space-Themes Addons 2.6.1\n"
+"POT-Creation-Date: 2022-11-22 19:38+0100\n"
+"PO-Revision-Date: 2019-11-29 12:09+0100\n"
+"Last-Translator: \n"
+"Language-Team: Space-Themes https://space-themes.com/\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html;esc_html_e;esc_html__;esc_attr;esc_attr_e;esc_attr__;esc_html_x;_e;_n;_x\n"
+"X-Poedit-SearchPath-0: index.php\n"
+"X-Poedit-SearchPath-1: widgets\n"
+"X-Poedit-SearchPath-2: widgets/widget-1.php\n"
+"X-Poedit-SearchPath-3: widgets/widget-2.php\n"
+"X-Poedit-SearchPath-4: widgets/widget-3.php\n"
+"X-Poedit-SearchPath-5: widgets/widget-4.php\n"
+"X-Poedit-SearchPath-6: widgets/widget-5.php\n"
+"X-Poedit-SearchPath-7: widgets/widget-6.php\n"
+"X-Poedit-SearchPath-8: widgets/widget-7.php\n"
+"X-Poedit-SearchPath-9: widgets/widget-8.php\n"
+"X-Poedit-SearchPath-10: widgets/widget-9.php\n"
+"X-Poedit-SearchPath-11: widgets/widget-10.php\n"
+"X-Poedit-SearchPath-12: widgets/widget-11.php\n"
+"X-Poedit-SearchPath-13: shortcodes\n"
+"X-Poedit-SearchPath-14: shortcodes/posts-shortcode-1.php\n"
+"X-Poedit-SearchPath-15: shortcodes/posts-shortcode-2.php\n"
+"X-Poedit-SearchPath-16: shortcodes/posts-shortcode-3.php\n"
+"X-Poedit-SearchPath-17: shortcodes/posts-shortcode-4.php\n"
+"X-Poedit-SearchPath-18: shortcodes/posts-shortcode-5.php\n"
+"X-Poedit-SearchPath-19: shortcodes/posts-shortcode-6.php\n"
+"X-Poedit-SearchPath-20: shortcodes/posts-shortcode-7.php\n"
+"X-Poedit-SearchPath-21: shortcodes/posts-shortcode-8.php\n"
+"X-Poedit-SearchPath-22: shortcodes/posts-shortcode-9.php\n"
+"X-Poedit-SearchPath-23: shortcodes/posts-shortcode-10.php\n"
+"X-Poedit-SearchPath-24: shortcodes/posts-shortcode-11.php\n"
+
+#: index.php:27
+msgid "Post Template"
+msgstr ""
+
+#: index.php:37 index.php:140 index.php:202 index.php:264
+msgid "Style 1"
+msgstr ""
+
+#: index.php:38 index.php:143 index.php:205
+msgid "Style 2 (Without Sidebar)"
+msgstr ""
+
+#: index.php:39 index.php:144 index.php:206
+msgid "Style 3"
+msgstr ""
+
+#: index.php:40
+msgid "Style 4 (Without Sidebar)"
+msgstr ""
+
+#: index.php:41 index.php:146 index.php:208 index.php:265
+msgid "Empty Template"
+msgstr ""
+
+#: index.php:42 index.php:147 index.php:209 index.php:266
+msgid "Empty Template + Right Sidebar"
+msgstr ""
+
+#: index.php:127 index.php:189 index.php:251
+msgid "Template for this page"
+msgstr ""
+
+#: index.php:141 index.php:203
+msgid "Style 1 (Without Sidebar)"
+msgstr ""
+
+#: index.php:142 index.php:204
+msgid "Style 2"
+msgstr ""
+
+#: index.php:145 index.php:207
+msgid "Style 3 (Without Sidebar)"
+msgstr ""
+
+#: shortcodes/posts-shortcode-1.php:88 shortcodes/posts-shortcode-10.php:105
+#: shortcodes/posts-shortcode-11.php:108 shortcodes/posts-shortcode-11.php:165
+#: shortcodes/posts-shortcode-2.php:122 shortcodes/posts-shortcode-2.php:196
+#: shortcodes/posts-shortcode-3.php:105 shortcodes/posts-shortcode-4.php:165
+#: shortcodes/posts-shortcode-5.php:100 shortcodes/posts-shortcode-6.php:155
+#: shortcodes/posts-shortcode-6.php:193 shortcodes/posts-shortcode-6.php:248
+#: shortcodes/posts-shortcode-7.php:95 shortcodes/posts-shortcode-8.php:126
+#: shortcodes/posts-shortcode-9.php:87 widgets/widget-1.php:79
+#: widgets/widget-10.php:91 widgets/widget-11.php:92 widgets/widget-11.php:149
+#: widgets/widget-2.php:82 widgets/widget-2.php:153 widgets/widget-3.php:91
+#: widgets/widget-4.php:90 widgets/widget-5.php:73 widgets/widget-6.php:96
+#: widgets/widget-6.php:131 widgets/widget-6.php:183 widgets/widget-7.php:76
+#: widgets/widget-8.php:109 widgets/widget-9.php:69
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: shortcodes/posts-shortcode-5.php:119
+msgid "Read more"
+msgstr ""
+
+#: widgets/widget-1.php:8
+msgid "#1 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-1.php:9
+msgid "#1 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-1.php:120 widgets/widget-10.php:138 widgets/widget-11.php:200
+#: widgets/widget-2.php:201 widgets/widget-3.php:141 widgets/widget-4.php:156
+#: widgets/widget-5.php:111 widgets/widget-6.php:232 widgets/widget-7.php:123
+#: widgets/widget-8.php:158 widgets/widget-9.php:137
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget-1.php:123
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/widget-1.php:126 widgets/widget-4.php:163
+msgid "Margin bottom for the block (in pixels):"
+msgstr ""
+
+#: widgets/widget-1.php:131 widgets/widget-10.php:145 widgets/widget-11.php:207
+#: widgets/widget-2.php:204 widgets/widget-3.php:149 widgets/widget-4.php:184
+#: widgets/widget-5.php:114 widgets/widget-6.php:235 widgets/widget-7.php:126
+#: widgets/widget-8.php:161 widgets/widget-9.php:140
+msgid "Select Category:"
+msgstr ""
+
+#: widgets/widget-1.php:133 widgets/widget-10.php:148 widgets/widget-11.php:210
+#: widgets/widget-2.php:206 widgets/widget-3.php:151 widgets/widget-4.php:173
+#: widgets/widget-4.php:187 widgets/widget-5.php:116 widgets/widget-6.php:237
+#: widgets/widget-7.php:128 widgets/widget-8.php:163 widgets/widget-9.php:142
+msgid "All"
+msgstr ""
+
+#: widgets/widget-10.php:8
+msgid "#10 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-10.php:9
+msgid "#10 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-10.php:159 widgets/widget-3.php:144 widgets/widget-5.php:122
+#: widgets/widget-7.php:134 widgets/widget-8.php:169 widgets/widget-9.php:148
+msgid "Number of post to show:"
+msgstr ""
+
+#: widgets/widget-11.php:8
+msgid "#11 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-11.php:9
+msgid "#11 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-2.php:8
+msgid "#2 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-2.php:9
+msgid "#2 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-3.php:8
+msgid "#3 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-3.php:9
+msgid "#3 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-4.php:8
+msgid "#4 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-4.php:9
+msgid "#4 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-4.php:170
+msgid "Select Post Format:"
+msgstr ""
+
+#: widgets/widget-4.php:174
+msgid "Image"
+msgstr ""
+
+#: widgets/widget-4.php:175
+msgid "Gallery"
+msgstr ""
+
+#: widgets/widget-4.php:176
+msgid "Video"
+msgstr ""
+
+#: widgets/widget-5.php:8
+msgid "#5 Sidebar Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-5.php:9
+msgid "#5 Widget for SIDEBAR (Recent Posts)"
+msgstr ""
+
+#: widgets/widget-6.php:8
+msgid "#6 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-6.php:9
+msgid "#6 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-7.php:8
+msgid "#7 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-7.php:9
+msgid "#7 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-8.php:8
+msgid "#8 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-8.php:9
+msgid "#8 Widget for HOMEPAGE"
+msgstr ""
+
+#: widgets/widget-9.php:8
+msgid "#9 Homepage Block [Mercury]"
+msgstr ""
+
+#: widgets/widget-9.php:9
+msgid "#9 Widget for HOMEPAGE"
+msgstr ""
