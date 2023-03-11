@@ -98,7 +98,7 @@
 			if( $categories ){
 		 ?>
             <div>
-                <ul class="right-sidebar">
+                <ul class="right-sidebar taxonomy">
                     <?php if (get_theme_mod( 'mercury_bonuses_list_page_id')) { ?>
                     <li>
                         <a

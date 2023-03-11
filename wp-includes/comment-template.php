@@ -1994,12 +1994,12 @@ function comment_form_title( $no_reply_text = false, $reply_text = false, $link_
 	global $comment;
 
 	if ( false === $no_reply_text ) {
-		$no_reply_text = __( 'Leave a Reply' );
+		$no_reply_text = __( 'Write a review' );
 	}
 
 	if ( false === $reply_text ) {
 		/* translators: %s: Author of the comment being replied to. */
-		$reply_text = __( 'Leave a Reply to %s' );
+		$reply_text = __( 'Write a review to %s' );
 	}
 
 	$reply_to_id = isset( $_GET['replytocom'] ) ? (int) $_GET['replytocom'] : 0;
@@ -2301,8 +2301,8 @@ function wp_list_comments( $args = array(), $comments = null ) {
  *     @type string $class_form           The comment form element class attribute. Default 'comment-form'.
  *     @type string $class_submit         The comment submit element class attribute. Default 'submit'.
  *     @type string $name_submit          The comment submit element name attribute. Default 'submit'.
- *     @type string $title_reply          The translatable 'reply' button label. Default 'Leave a Reply'.
- *     @type string $title_reply_to       The translatable 'reply-to' button label. Default 'Leave a Reply to %s',
+ *     @type string $title_reply          The translatable 'reply' button label. Default 'Write a review'.
+ *     @type string $title_reply_to       The translatable 'reply-to' button label. Default 'Write a review to %s',
  *                                        where %s is the author of the comment being replied to.
  *     @type string $title_reply_before   HTML displayed before the comment form title.
  *                                        Default: '<h3 id="reply-title" class="comment-reply-title">'.
@@ -2480,15 +2480,15 @@ function comment_form( $args = array(), $post = null ) {
 		'class_form'           => 'comment-form',
 		'class_submit'         => 'submit',
 		'name_submit'          => 'submit',
-		'title_reply'          => __( 'Leave a Reply' ),
+		'title_reply'          => __( 'Write a review' ),
 		/* translators: %s: Author of the comment being replied to. */
-		'title_reply_to'       => __( 'Leave a Reply to %s' ),
+		'title_reply_to'       => __( 'Write a review to %s' ),
 		'title_reply_before'   => '<h3 id="reply-title" class="comment-reply-title">',
 		'title_reply_after'    => '</h3>',
 		'cancel_reply_before'  => ' <small>',
 		'cancel_reply_after'   => '</small>',
 		'cancel_reply_link'    => __( 'Cancel reply' ),
-		'label_submit'         => __( 'Post Comment' ),
+		'label_submit'         => __( 'Post Review' ),
 		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="%4$s" />',
 		'submit_field'         => '<p class="form-submit">%1$s %2$s</p>',
 		'format'               => 'xhtml',

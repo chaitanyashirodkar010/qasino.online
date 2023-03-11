@@ -33,7 +33,7 @@ function aces_bonuses() {
         '_builtin' => false,
         '_edit_link' => 'post.php?post=%d',
         'capability_type' => 'post',
-        'hierarchical' => false,
+        'hierarchical' => true,
         'supports' => array(
         	'title',
         	'editor',
@@ -477,7 +477,7 @@ function aces_bonuses_display_casinos_list_meta_box( $bonus ) {
 
 	        <li>
 				<label>
-	            <input type="checkbox" name="bonus_casino_item[]" value="<?php esc_attr_e($id);?>" <?php esc_attr_e($checked); ?>>
+	            <input type="radio" name="bonus_casino_item[]" value="<?php esc_attr_e($id);?>" <?php esc_attr_e($checked); ?>>
 	            <?php esc_html_e($element); ?>
 	        	</label>
 			</li>

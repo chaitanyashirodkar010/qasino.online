@@ -101,7 +101,7 @@ endwhile;
 			 ?>
                         <div class="mt_15">
                             
-                            <ul class="right-sidebar">
+                            <ul class="right-sidebar page-bonus-archive">
                                 <?php if (get_theme_mod( 'mercury_bonuses_list_page_id')) { ?>
                                 <li>
                                     <a href="" class="active">

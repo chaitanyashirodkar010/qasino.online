@@ -45,7 +45,7 @@ Template Name: Bonuses Archive Style #1
 
 				if( $categories ){
 			 ?>
-			<div class="space-categories-list-box relative">
+			<div class="space-categories-list-box relative j">
 				<ul class="space-categories-title">
 					<?php if (get_theme_mod( 'mercury_bonuses_list_page_id')) { ?>
 						<li class="active">  

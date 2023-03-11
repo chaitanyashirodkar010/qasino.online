@@ -246,7 +246,7 @@
 
 		<!-- Single Organization Page Section Start -->
 
-		<div class="space-page-section box-100 relative style-2-without-sidebar">
+		<div class="space-page-section box-100 relative style-2-without-sidebar casino-page">
 			<div class="space-page-section-ins space-page-wrapper relative">
 				<div class="space-content-section box-100 relative">
 

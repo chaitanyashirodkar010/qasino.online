@@ -297,7 +297,7 @@ add_action( 'save_post', 'spacethemes_game_post_style_save' );
 
 function spacethemes_offer_register_post_style() {
     add_meta_box( 'offer_style_meta_box',
-        esc_html__( 'Template for this page', 'spacethemes' ),
+        esc_html__( 'Template for this psage', 'spacethemes' ),
         'spacethemes_offer_post_style_callback',
         'bonus', 'side', 'high'
     );

@@ -45,7 +45,7 @@ Template Name: Casinos Archive Style #5
 
 				if( $categories ){
 			 ?>
-			<div class="space-categories-list-box relative">
+			<div class="space-categories-list-box relative e">
 				<ul class="space-categories-title">
 					<?php if (get_theme_mod( 'mercury_casinos_list_page_id')) { ?>
 						<li class="active">  

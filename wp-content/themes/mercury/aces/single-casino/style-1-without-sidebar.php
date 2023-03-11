@@ -127,7 +127,7 @@
 		<div class="space-page-section box-100 relative style-1-without-sidebar">
 			<div class="space-page-section-ins space-page-wrapper relative">
 				<div class="space-content-section box-100 relative">
-					<div class="space-aces-content-section box-100 relative">
+					<div class="space-aces-content-section box-100 relative 1">
 						<div class="space-aces-content-meta box-25 left relative space-sidebar-section-left">
 							<div class="space-aces-content-meta-ins text-center relative">
 

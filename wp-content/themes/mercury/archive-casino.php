@@ -46,7 +46,7 @@ if ( get_option( 'casinos_section_name') ) {
 
 				if( $categories ){
 			 ?>
-			<div class="space-categories-list-box relative">
+			<div class="space-categories-list-box relative k">
 				<ul class="space-categories-title">
 					<li class="active">  
 						<?php esc_html_e( 'All', 'mercury' ); ?>

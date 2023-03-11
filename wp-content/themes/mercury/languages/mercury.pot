@@ -115,7 +115,6 @@ msgid "Error 404"
 msgstr ""
 
 #: 404.php:28
-msgid "Page not Found"
 msgstr ""
 
 #: 404.php:29

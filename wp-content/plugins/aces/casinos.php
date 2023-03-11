@@ -33,7 +33,7 @@ function aces_casinos() {
         '_builtin' => false,
         '_edit_link' => 'post.php?post=%d',
         'capability_type' => 'post',
-        'hierarchical' => false,
+        'hierarchical' => true,
         'supports' => array(
         	'title',
         	'editor',
@@ -41,7 +41,9 @@ function aces_casinos() {
         	'comments',
         	'thumbnail',
         	'excerpt',
-        	'revisions'
+        	'revisions',
+			'custom-fields',
+            'page-attributes'
         ),
 		'has_archive' => false,
 		'rest_base' => 'organization',

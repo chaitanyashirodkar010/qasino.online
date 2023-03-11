@@ -64,7 +64,7 @@
 	<div class="space-page-section box-100 relative">
 		<div class="space-page-section-ins space-page-wrapper relative">
 			<div class="space-content-section box-75 left relative">
-				<div class="space-aces-content-section box-100 relative">
+				<div class="space-aces-content-section box-100 relative 4">
 					<div class="space-aces-content-meta box-33 left relative space-sidebar-section-left">
 						<div class="space-aces-content-meta-ins relative">
 

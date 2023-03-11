@@ -1,4 +1,12 @@
 <!-- Footer Start -->
+<?php
+$categories = get_categories( array(
+    'type' => 'casino',
+    'orderby' => 'name',
+    'taxonomy' => 'casino-category',
+    'order' => 'ASC'
+) );
+?>
 
 
 
@@ -8,6 +16,148 @@
         <div class="space-footer-ins relative">
             <div class="space-footer-top-center box-100 relative">
                 <?php dynamic_sidebar( 'footer-center-sidebar' ); ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="categoty-footer footer">
+        <div class="container">
+            <div class="all-categories">
+                All categories
+            </div>
+            <div class="d-flex">
+                <div class="col">
+                    <div class="icon-title">
+                        <div class="icon">
+                            <i class="fa fa-fire" aria-hidden="true"></i>
+                        </div>
+                        <h6>Most popular</h6>
+                    </div>
+                    <div class="category-list">
+                       <?php  foreach( $categories as $category ) { ?>
+                        <?php 
+                            echo '<a href="' . get_category_link($category->term_id) . '">' .
+                            $category->name . '</a>';
+                            ?>
+                        <?php } ?>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon-title">
+                        <div class="icon">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                        </div>
+                        <h6>Real money guides</h6>
+                    </div>
+                    <div class="category-list">
+                        <a href="#">The current link item</a>
+                        <a href="#">A second link item</a>
+                        <a href="#">A third link item</a>
+                        <a href="#">A fourth link item</a>
+                        <a href="#">A disabled link item</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon-title">
+                        <div class="icon">
+                            <i class="fas fa-book-open    "></i>
+
+                        </div>
+                        <h6>Most popular</h6>
+                    </div>
+                    <div class="category-list">
+                        <a href="#">The current link item</a>
+                        <a href="#">A second link item</a>
+                        <a href="#">A third link item</a>
+                        <a href="#">A fourth link item</a>
+                        <a href="#">A disabled link item</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon-title">
+                        <div class="icon">
+                            <i class="fas fa-dice    "></i>
+                        </div>
+                        <h6> Casino games</h6>
+                    </div>
+                    <div class="category-list">
+                        <a href="#">The current link item</a>
+                        <a href="#">A second link item</a>
+                        <a href="#">A third link item</a>
+                        <a href="#">A fourth link item</a>
+                        <a href="#">A disabled link item</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="links-footer footer">
+        <div class="container">
+            <div class="all-categories">
+                All categories
+            </div>
+            <div class="d-flex">
+                <div class="col">
+                    <div class="icon-title">
+                        <h6>About us</h6>
+                    </div>
+                    <div class="category-list">
+                        <a href="#">The current link item</a>
+                        <a href="#">A second link item</a>
+                        <a href="#">A third link item</a>
+                        <a href="#">A fourth link item</a>
+                        <a href="#">A disabled link item</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon-title">
+                        <h6>Casino reviews</h6>
+                    </div>
+                    <div class="category-list">
+                        <a href="#">The current link item</a>
+                        <a href="#">A second link item</a>
+                        <a href="#">A third link item</a>
+                        <a href="#">A fourth link item</a>
+                        <a href="#">A disabled link item</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon-title">
+                        <h6>Game guides</h6>
+                    </div>
+                    <div class="category-list">
+                        <a href="#">The current link item</a>
+                        <a href="#">A second link item</a>
+                        <a href="#">A third link item</a>
+                        <a href="#">A fourth link item</a>
+                        <a href="#">A disabled link item</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon-title">
+                        <h6>News</h6>
+                    </div>
+                    <div class="category-list">
+                        <a href="#">The current link item</a>
+                        <a href="#">A second link item</a>
+                        <a href="#">A third link item</a>
+                        <a href="#">A fourth link item</a>
+                        <a href="#">A disabled link item</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icon-title">
+                        <h6>Other</h6>
+                    </div>
+                    <div class="category-list">
+                        <a href="#">The current link item</a>
+                        <a href="#">A second link item</a>
+                        <a href="#">A third link item</a>
+                        <a href="#">A fourth link item</a>
+                        <a href="#">A disabled link item</a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -51,26 +201,6 @@
     </div>
 </div>
 
-<div class="footer">
-    <div class="container">
-        <div class="all-categories">
-            All categories
-        </div>
-        <div class="d-flex">
-            <div class="col">
-                <h6>Most popular</h6>
-                <div>
-                    <a href="#">The current link item</a>
-                    <a href="#">A second link item</a>
-                    <a href="#">A third link item</a>
-                    <a href="#">A fourth link item</a>
-                    <a href="#">A disabled link item</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Footer End -->
 
 </div>
@@ -91,7 +221,7 @@
 <!-- Back to Top End -->
 
 <?php wp_footer(); ?>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
